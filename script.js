@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Checkout Form Submission (Simulated Payment)
     document.getElementById('checkout-form').addEventListener('submit', (e) => {
         e.preventDefault();
-        alert('Payment successful! Thank you for your purchase. Your order has been confirmed.');
+        alert('Payment successful! Your fragrances will be delivered soon.');
         cart = [];
         updateCartUI();
         document.querySelector('.checkout-modal').style.display = 'none';
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const name = e.target.querySelector('input[type="text"]').value;
         const email = e.target.querySelector('input[type="email"]').value;
         if (name && email) {
-            alert('Message sent successfully! We will respond within 24 hours.');
+            alert('Message sent! Our perfumery team will respond within 24 hours.');
             e.target.reset();
         } else {
             alert('Please fill in all required fields.');
