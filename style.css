@@ -30,8 +30,8 @@ body {
     backdrop-filter: blur(10px);
     padding: 1.5rem 3rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-start;
     z-index: 1000;
 }
 
@@ -41,28 +41,13 @@ body {
     color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 2rem;
-}
-
-.nav-links a {
-    color: var(--text);
-    text-decoration: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: var(--accent);
+    margin-right: 1rem;
 }
 
 .cart-icon {
     position: relative;
     cursor: pointer;
+    margin-right: 2rem;
 }
 
 .cart-icon img {
@@ -83,9 +68,30 @@ body {
 
 .hamburger {
     display: none;
-    font-size: 1.5rem;
     cursor: pointer;
+}
+
+.hamburger svg {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+}
+
+.nav-links a {
     color: var(--text);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
 }
 
 /* Hero Section */
@@ -568,6 +574,15 @@ footer .social-links a:hover {
     .navbar {
         padding: 1rem 2rem;
         flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    .cart-icon {
+        margin-right: 1rem;
     }
 
     .hamburger {
@@ -690,6 +705,15 @@ footer .social-links a:hover {
 @media (min-width: 481px) and (max-width: 768px) {
     .navbar {
         padding: 1rem 2rem;
+        justify-content: space-between;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    .cart-icon {
+        margin-right: 1rem;
     }
 
     .hamburger {
