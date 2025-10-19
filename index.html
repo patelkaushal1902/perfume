@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxé Parfum - Timeless Elegance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Luxé Parfum</div>
+        <div class="hamburger">☰</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="cart-icon">
+            <img src="https://img.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cart">
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Luxé Parfum</h1>
+            <p>Experience the essence of timeless luxury with our curated collection of exquisite fragrances, handcrafted for the discerning individual.</p>
+            <button class="cta-button">Discover Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Perfume Bottle">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Signature Collection</h2>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="floral">Floral</button>
+            <button class="filter-btn" data-filter="woody">Woody</button>
+            <button class="filter-btn" data-filter="oriental">Oriental</button>
+            <button class="filter-btn" data-filter="citrus">Citrus</button>
+        </div>
+        <div class="product-grid">
+            <div class="product-card" data-category="floral" data-id="1" data-name="Aura" data-price="120" data-image="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg">
+                <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Aura Perfume">
+                <h3>Aura</h3>
+                <p>A delicate blend of jasmine, amber, and rose for an enchanting aura that lingers throughout the day.</p>
+                <p class="price">$120</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="woody" data-id="2" data-name="Elysian" data-price="150" data-image="https://images.pexels.com/photos/1148742/pexels-photo-1148742.jpeg">
+                <img src="https://images.pexels.com/photos/1148742/pexels-photo-1148742.jpeg" alt="Elysian Perfume">
+                <h3>Elysian</h3>
+                <p>Rich notes of oud, sandalwood, and patchouli for a divine experience that evokes ancient forests.</p>
+                <p class="price">$150</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="oriental" data-id="3" data-name="Noire" data-price="130" data-image="https://images.pexels.com/photos/1559920/pexels-photo-1559920.jpeg">
+                <img src="https://images.pexels.com/photos/1559920/pexels-photo-1559920.jpeg" alt="Noire Perfume">
+                <h3>Noire</h3>
+                <p>A mysterious fusion of vanilla, musk, and bergamot for bold elegance perfect for evening wear.</p>
+                <p class="price">$130</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="oriental" data-id="4" data-name="Velvet" data-price="140" data-image="https://images.pexels.com/photos/1559921/pexels-photo-1559921.jpeg">
+                <img src="https://images.pexels.com/photos/1559921/pexels-photo-1559921.jpeg" alt="Velvet Perfume">
+                <h3>Velvet</h3>
+                <p>A luxurious mix of saffron, orchid, and cedarwood for a velvety finish that captivates the senses.</p>
+                <p class="price">$140</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="citrus" data-id="5" data-name="Luminos" data-price="160" data-image="https://images.pexels.com/photos/1559918/pexels-photo-1559918.jpeg">
+                <img src="https://images.pexels.com/photos/1559918/pexels-photo-1559918.jpeg" alt="Luminos Perfume">
+                <h3>Luminos</h3>
+                <p>A radiant blend of citrus, lily, and white musk for a luminous scent that brightens any occasion.</p>
+                <p class="price">$160</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="woody" data-id="6" data-name="Serene" data-price="135" data-image="https://images.pexels.com/photos/1148741/pexels-photo-1148741.jpeg">
+                <img src="https://images.pexels.com/photos/1148741/pexels-photo-1148741.jpeg" alt="Serene Perfume">
+                <h3>Serene</h3>
+                <p>A calming fusion of lavender, vetiver, and sandalwood for tranquility in a busy world.</p>
+                <p class="price">$135</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="floral" data-id="7" data-name="Blossom" data-price="125" data-image="https://images.pexels.com/photos/1598506/pexels-photo-1598506.jpeg">
+                <img src="https://images.pexels.com/photos/1598506/pexels-photo-1598506.jpeg" alt="Blossom Perfume">
+                <h3>Blossom</h3>
+                <p>Fresh floral notes of peony and freesia with a touch of green apple for a vibrant springtime vibe.</p>
+                <p class="price">$125</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="citrus" data-id="8" data-name="Zest" data-price="110" data-image="https://images.pexels.com/photos/1559919/pexels-photo-1559919.jpeg">
+                <img src="https://images.pexels.com/photos/1559919/pexels-photo-1559919.jpeg" alt="Zest Perfume">
+                <h3>Zest</h3>
+                <p>Energizing citrus burst of lemon, bergamot, and ginger for an invigorating daily refresh.</p>
+                <p class="price">$110</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="oriental" data-id="9" data-name="Amber Glow" data-price="145" data-image="https://images.pexels.com/photos/1559922/pexels-photo-1559922.jpeg">
+                <img src="https://images.pexels.com/photos/1559922/pexels-photo-1559922.jpeg" alt="Amber Glow Perfume">
+                <h3>Amber Glow</h3>
+                <p>Warm amber, cinnamon, and clove create a spicy oriental aura for intimate evenings.</p>
+                <p class="price">$145</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="floral" data-id="10" data-name="Eternal Rose" data-price="155" data-image="https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg">
+                <img src="https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg" alt="Eternal Rose Perfume">
+                <h3>Eternal Rose</h3>
+                <p>Timeless rose with hints of lychee and patchouli for a romantic, everlasting floral embrace.</p>
+                <p class="price">$155</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Luxé Parfum</h2>
+        <div class="about-content">
+            <p>Luxé Parfum is a celebration of artistry and elegance. Our fragrances are crafted with the finest ingredients, sourced from around the globe, to create scents that embody sophistication and individuality.</p>
+            <p>Founded in 2020, our mission is to redefine luxury through olfactory experiences. Each perfume is a masterpiece, blending tradition with innovation to tell a unique story.</p>
+            <p>Our commitment to sustainability ensures that every bottle is crafted with eco-conscious practices, preserving the beauty of our planet for future generations. We partner with ethical suppliers and use recyclable materials to minimize our environmental footprint.</p>
+            <p>From the lush fields of Grasse to the ancient oud forests of the Middle East, our ingredients are selected for their purity and potency. Our master perfumers, with decades of experience, compose symphonies of scent that resonate with the soul.</p>
+            <p>Join us on a journey of scent and style, where every fragrance is an invitation to indulge in the extraordinary. Discover your signature scent today and elevate your presence.</p>
+        </div>
+        <img src="https://images.pexels.com/photos/1148743/pexels-photo-1148743.jpeg" alt="About Luxé Parfum" class="about-image">
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"Luxé Parfum's fragrances are a true work of art. Aura has become my signature scent, turning heads wherever I go!"</p>
+                <h3>— Priya Sharma, Fashion Designer</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"The elegance and depth of Elysian are unmatched. It’s luxury in every spray, perfect for my executive lifestyle."</p>
+                <h3>— Rohan Mehta, CEO</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"Noire is bold and captivating, perfect for evening wear. Absolutely divine and long-lasting!"</p>
+                <h3>— Ananya Verma, Artist</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"Velvet is my go-to for special occasions. It’s pure sophistication in a bottle, with notes that unfold beautifully."</p>
+                <h3>— Vikram Singh, Entrepreneur</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"Luminos brings a fresh energy to my mornings. The citrus notes are invigorating yet sophisticated."</p>
+                <h3>— Sara Khan, Influencer</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"Serene has become my daily ritual for unwinding. The woody blend is calming and luxurious."</p>
+                <h3>— Amit Patel, Architect</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions about our fragrances or need personalized scent recommendations? We'd love to hear from you.</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone (Optional)">
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <button class="close-cart">&times;</button>
+            <h2>Your Cart</h2>
+            <div class="cart-items"></div>
+            <p class="cart-total">Total: $0</p>
+            <button class="checkout-button" id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal">
+        <div class="checkout-content">
+            <button class="close-checkout">&times;</button>
+            <h2>Secure Checkout</h2>
+            <form id="checkout-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <input type="text" placeholder="Address" required>
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="State" required>
+                <input type="text" placeholder="ZIP Code" required>
+                <input type="text" placeholder="Card Number" required>
+                <input type="text" placeholder="Expiry (MM/YY)" required>
+                <input type="text" placeholder="CVV" required>
+                <button type="submit">Pay Now</button>
+            </form>
+            <p class="payment-note">Secure payment powered by Stripe</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Luxé Parfum. All rights reserved. | Crafted with passion in the heart of luxury.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
